@@ -1,0 +1,94 @@
+/* 3 */
+body{
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000;
+    color:#FFFFFF;
+    margin: 20px 20px 0 20px;
+}
+/* 4 */
+h1{
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+/* 5 */
+h2{
+    color: #0D0D0D;
+    font-size: 24px;
+}
+/* 6 */
+p{
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+/* 7 */
+img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    border:#FFFFFF 10px dashed;
+}
+/* 8 */
+div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+/* 9 */
+.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+/* 10 */
+.red{
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-top: 2px;
+    border-right: 5px;
+}
+/* 11 */
+.blue{
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-left: 5px;
+    border-bottom: 2px;
+    color: #c4c4c4;
+}
+.blue h2{
+    color: #c4c4c4;
+}
+/* 12 */
+.yellow{
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-top: 2px;
+    border-right: 5px;
+}
+/* 13 */
+.green{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-left: 5px;
+    border-bottom: 2px;
+}
+/* 14 */
+footer{
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #0000ff 25%,
+        #0066ff 70%,
+        #000000 100%
+    );
+    border:#FFFFFF 5px solid;
+}
+footer p{
+    text-align: right;
+    font-size: 20px;
+    padding: 15px 15px 15px 0;
+}
