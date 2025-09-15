@@ -14,7 +14,7 @@ h1{
 /* 5 */
 h2{
     color: #0D0D0D;
-    font-size: 24px;
+    font-size: 30px;
 }
 /* 6 */
 p{
@@ -33,6 +33,7 @@ div{
     min-height: 125px;
     padding: 20px;
     border: 3px solid #FFFFFF;
+    box-sizing: border-box;
 }
 /* 9 */
 .introduction{
@@ -45,16 +46,18 @@ div{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border: none;
+    border-left: 5px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 /* 11 */
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border: none;
+    border-right: 5px solid #ffffff;
+    border-top: 2px solid #ffffff;
     color: #c4c4c4;
 }
 .blue h2{
@@ -65,16 +68,19 @@ div{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border: none;
+    border-left: 5px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    color: #707070;
 }
 /* 13 */
 .green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border: none;
+    border-right: 5px solid #ffffff;
+    border-top: 2px solid #ffffff;
 }
 /* 14 */
 footer{
